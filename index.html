@@ -1022,8 +1022,17 @@ input[type=submit]:hover {
 
 
 
-    <input type="submit" value="Submit" onclick="success()">
-
+    <input type="submit" value="Submit" onclick="myfun()">
+    <br>
+    <br>
+<h5 id="demo"></h5>
+<script type="text/javascript">
+  function myfun()
+{
+   x = "Thanks, Your query has been submitted!!";
+   document.getElementById("demo").innerHTML = x;
+} 
+</script>
   </form>
 </div>
           </div>
