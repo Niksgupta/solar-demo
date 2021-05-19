@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #fff;
+  background: #37517e;;
 }
 
 #header.header-scrolled {
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #222222;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #3498db;
+  color: #47b2e4;;
 }
 
 .navbar .getstarted {
@@ -159,9 +159,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 10px 0;
   z-index: 99;
-  opacity: 0;
+
   visibility: hidden;
-  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -174,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
+  color: #01080e;
 }
 
 .navbar .dropdown ul a i {
@@ -181,11 +181,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3498db;
+  color: #01080e;
 }
 
 .navbar .dropdown:hover > ul {
-  opacity: 1;
   top: 100%;
   visibility: visible;
 }
@@ -197,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown .dropdown:hover > ul {
-  opacity: 1;
   top: 0;
   left: 100%;
   visibility: visible;
@@ -322,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
-  background-color: #f0f6fa;
+  background-color: #37517e;
 }
 
 #hero h1 {
@@ -330,11 +328,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color:#fff;
 }
 
 #hero h2 {
-  color: #484848;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -614,8 +612,8 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+
+ 
   color: #484848;
 }
 
@@ -735,7 +733,6 @@ section {
 --------------------------------------------------------------*/
 .more-services {
   padding-top: 20px;
-  background-color: #f7fbfe;
 }
 
 .more-services .card {
@@ -1562,4 +1559,219 @@ section {
 
 #footer .footer-links a:hover {
   color: #3498db;
+}
+
+
+
+
+.why-us .content {
+  padding: 60px 100px 0 100px;
+}
+
+.why-us .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+
+.why-us .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.why-us .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.why-us .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.why-us .accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+.why-us .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-us .accordion-list li + li {
+  margin-top: 15px;
+}
+
+.why-us .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.why-us .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.why-us .accordion-list span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.why-us .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.why-us .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.why-us .accordion-list .icon-show {
+  display: none;
+}
+
+.why-us .accordion-list a.collapsed {
+  color: #343a40;
+}
+
+.why-us .accordion-list a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.why-us .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.why-us .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .why-us .content, .why-us .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .why-us .img {
+    min-height: 400px;
+  }
+  .why-us .content {
+    padding-top: 30px;
+  }
+  .why-us .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .why-us .img {
+    min-height: 200px;
+  }
+}
+
+/* for second divv services acordance-listssss */
+.services .accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+.services .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.services .accordion-list li + li {
+  margin-top: 15px;
+}
+
+.services .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.services .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.skills .accordion-list span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.skills .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.skills .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.skills .accordion-list .icon-show {
+  display: none;
+}
+
+.skills .accordion-list a.collapsed {
+  color: #343a40;
+}
+
+.skills .accordion-list a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.skills .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.skills .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .skills .content, .skills .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .skills .img {
+    min-height: 400px;
+  }
+  .skills .content {
+    padding-top: 30px;
+  }
+  .skills .accordion-list {
+    padding-bottom: 30px;
+  }
 }
